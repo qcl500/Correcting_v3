@@ -25,3 +25,13 @@
   -目标：集合小波分析功能或者Past数据接口
   
   -目标：集合预处理功能
+
+特别声明：
+
+源代码公开
+
+但请注明出处https://github.com/qcl500/Correcting_v3
+
+Creator：jr.zhou from CMST_CUG(College of Marine Science and Technology,China University of Geosciences)20180406
+
+Thanks to Doctor.JiangTao
