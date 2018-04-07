@@ -32,6 +32,8 @@
 
 但请注明出处https://github.com/qcl500/Correcting_v3
 
-Creator：jr.zhou from CMST_CUG(College of Marine Science and Technology,China University of Geosciences)20180406
+Copyright (c) Jr.Zhou. All rights reserved.
+
+Creator：Jr.Zhou from CMST_CUG(College of Marine Science and Technology,China University of Geosciences)20180406
 
 Thanks to Doctor.JiangTao
