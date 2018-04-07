@@ -30,7 +30,7 @@
 
 源代码公开
 
-但请注明出处https://github.com/qcl500/Correcting_v3
+使用请注明出处https://github.com/qcl500/Correcting_v3
 
 Copyright (c) Jr.Zhou. All rights reserved.
 
