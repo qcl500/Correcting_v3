@@ -17,3 +17,22 @@ Correcting_v3	2018-04-02
 Correcting_v3	2018-04-06
 删除-在表格中年龄节点标红（beta）
 新增-写入xls完成状态提示
+
+Correcting_v3	2018-04-30
+修复-进度条提示
+新增-操作完成提示
+新增-使用手册说明
+
+Correcting_v3	2018-05-11
+新增-沉积速率数据记录
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Creator:jr.Zhou from cmst_CUG
+%
+% Thanks to Doctor.JiangTao
+%
+% Thanks to ZhaoKe
+%
+%%%%%%%%%%%%%%%%%%%%%%%%

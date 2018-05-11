@@ -1,5 +1,9 @@
 %savedata
-set(handles.text9,'String','Calculating');
+
+set(handles.text9,'String','running');
+set(handles.text9,'backgroundcolor','y');
+pause(0.5);
+
 load a.mat
 load eventlog.mat
 [m,n]=size(a);
@@ -12,8 +16,10 @@ if m>max(eventlog.depnum)
     save a.mat a
 end
 %添加沉积速率记录
-% v=vdif(a);
-
+%matlab2010b不支持末尾function？
+v=vdif(a);
+v_out=[a(:,1),a(:,3),v];
+xlswrite(handles.fname_read,v_out,'rate');
 
 
 b=[a,a(:,2)];
@@ -50,12 +56,16 @@ end
 fprintf(fid,'%s \r\n','-----------------------------');
 fclose(fid);
 
+
 set(handles.text9,'String','Done');
 
+set(handles.text9,'backgroundcolor','g');
 
-% function v=vdif(a)
-% yy=a(:,1);
-% zz=a(:,3);
-% v=diff(yy*100)./diff(zz);
-% v=[v(1);v];
-% end
+
+
+function v=vdif(a)
+yy=a(:,1);
+zz=a(:,3);
+v=diff(yy*100)./diff(zz);
+v=[v(1);v];
+end
