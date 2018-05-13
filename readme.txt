@@ -1,38 +1,54 @@
-Correcting_v1	2018-03-08
-天文调谐工具Correcting雏形开发版本完成
+MATLAB Compiler
 
-Correcting_v2	2018-03-29
-新增-单独绘图功能
-新增-状态栏滑动条
-更换-状态栏组件
+1. Prerequisites for Deployment 
 
-Correcting_v3	2018-03-31
-新增-部分错误提醒功能
-修复-多个不存在的bug
+. Verify the MATLAB Runtime is installed and ensure you    
+  have installed version 9.1 (R2016b).   
 
-Correcting_v3	2018-04-02
-新增-操作记录log.txt
-新增-在表格中年龄节点标红（beta测试）
+. If the MATLAB Runtime is not installed, do the following:
+  (1) enter
+  
+      >>mcrinstaller
+      
+      at MATLAB prompt. The MCRINSTALLER command displays the 
+      location of the MATLAB Runtime installer.
 
-Correcting_v3	2018-04-06
-删除-在表格中年龄节点标红（beta）
-新增-写入xls完成状态提示
+  (2) run the MATLAB Runtime installer.
 
-Correcting_v3	2018-04-30
-修复-进度条提示
-新增-操作完成提示
-新增-使用手册说明
+Or download the Windows 64-bit version of the MATLAB Runtime for R2016b 
+from the MathWorks Web site by navigating to
 
-Correcting_v3	2018-05-11
-新增-沉积速率数据记录
-
+   http://www.mathworks.com/products/compiler/mcr/index.html
+   
+   
+For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
+Package and Distribute in the MATLAB Compiler documentation  
+in the MathWorks Documentation Center.    
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-% Creator:jr.Zhou from cmst_CUG
-%
-% Thanks to Doctor.JiangTao
-%
-% Thanks to ZhaoKe
-%
-%%%%%%%%%%%%%%%%%%%%%%%%
+NOTE: You will need administrator rights to run MCRInstaller. 
+
+
+2. Files to Deploy and Package
+
+Files to package for Standalone 
+================================
+-Correcting.exe
+-MCRInstaller.exe 
+   -if end users are unable to download the MATLAB Runtime using the above  
+    link, include it when building your component by clicking 
+    the "Runtime downloaded from web" link in the Deployment Tool
+-This readme file 
+
+3. Definitions
+
+For information on deployment terminology, go to 
+http://www.mathworks.com/help. Select MATLAB Compiler >   
+Getting Started > About Application Deployment > 
+Deployment Product Terms in the MathWorks Documentation 
+Center.
+
+
+
+
+
