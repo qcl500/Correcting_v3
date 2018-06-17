@@ -33,7 +33,7 @@
 
 基于matlab2016b-win10编译，由于部分函数使用excel相关类函数，请确认安装office软件（推荐office2013或以上）
 
-matlab2016-mac环境下使用已知问题包括‘启动excel服务器失败’等问题。
+matlab2016-mac环境下请确认安装office软件（推荐office2016或以上）
 
 特别声明：
 
